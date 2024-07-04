@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+/* https://media.cntraveler.com/photos/5e73bf032e6ca30009d1d4f3/16:9/w_2560%2Cc_limit/VikingCruise-TravelBan-2020.jpg */
+
+body{
+    background-image: url("https://media.cntraveler.com/photos/64ee0d3dfc1c4bfeb07d7276/master/w_1600%2Cc_limit/Disney%2520Treasure%2520-%2520Exterior%25202.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+}
+.page {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 2vw;
+}
+
+.icon img {
+    width: 4vw;
+    height: 6vh;
+}
+
+.btn {
+    width: 4vw;
+    height: 6vh;
+    position: relative;
+    right: 2vw;
+}
+
+button{
+    border-radius: 2vh;
+    border: 0;
+    height: 7vh;
+    width: 3vw;
+}
+
+#signup{
+    background-color: lightblue;
+}
+
+#login {
+    color: balck;
+}
+
+.cardContainer {
+    display: flex;
+    justify-self: center;
+}
+
+.card {
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    opacity: 0.9;
+    margin: 1vh;
+    padding: 1vh;
+    border-radius: 2vh;
+    height: 74vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: blueviolet;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+}
+
+.name {
+    font-size: xx-large;
+}
+
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 764px) {
+    .cardContainer {
+        display: grid;
+        position: relative;
+        left: 13%;
+        width: 75vw;
+    }
+
+    .card {
+        background-image: url("img\Untitled.jpg");
+    }
+
+    .data {
+        position: relative;
+        right: 2%;
+    }
+
+    .btn {
+        width: 7vw;
+    }
+
+    #login{
+        width: 18vw;
+    }
+
+    #signup{
+        width: 18vw;
+    }
+
+    .name {
+        position: relative;
+        left: 2%;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    .cardContainer {
+        display: grid;
+        position: relative;
+        left: 13%;
+        width: 75vw;
+    }
+
+    .data {
+        position: relative;
+        right: 2%;
+    }
+
+    .btn {
+        height: 5vh;
+        width: 12vw;
+    }
+
+    #login{
+        width: 18vw;
+    }
+
+    #signup{
+        width: 18vw;
+    }
+
+    .name {
+        position: relative;
+        left: 2%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .cardContainer {
+        display: grid;
+        position: relative;
+        left: 13%;
+        width: 75vw;
+    }
+
+    .card {
+        background-image: url("img\Untitled.jpg");
+        height: 83vh;
+    }
+
+    .data {
+        position: relative;
+        right: 2%;
+    }
+
+    #login{
+        width: 18vw;
+    }
+
+    #signup{
+        width: 18vw;
+    }
+
+    .btn {
+        display: flex;
+        height: 4vh;
+        width: 14vw;
+        position: relative;
+        top: 19%;
+    }
+
+    .name {
+        position: relative;
+        left: 2%;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .cardContainer {
+        display: grid;
+        position: relative;
+        left: 13%;
+        width: 75vw;
+    }
+
+    .card {
+        background-image: url("img\Untitled.jpg");
+        height: 83vh;
+    }
+
+    .data {
+        display: flex;
+        position: relative;
+        right: 2%;
+    }
+
+    .btn {
+        display: flex;
+        position: relative;
+        width: 9vw;
+        height: 4vh;
+        margin: 5%;
+    }
+
+    .name {
+        position: relative;
+        left: 2%;
+    }
+}
+@media only screen and (max-width: 811px) {
+    .cardContainer {
+        display: grid;
+        position: relative;
+        left: 13%;
+        width: 75vw;
+    }
+
+    .card {
+        background-image: url("img\Untitled.jpg");
+        height: 83vh;
+    }
+
+    .data {
+        display: flex;
+        position: relative;
+        right: 2%;
+    }
+
+    .btn {
+        display: flex;
+        position: relative;
+        width: 9vw;
+        height: 4vh;
+        margin: 5%;
+    }
+
+    #login{
+        width: 8vw;
+    }
+
+    #signup{
+        width: 9vw;
+    }
+
+    .name {
+        position: relative;
+        left: 2%;
+    }
+}

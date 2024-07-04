@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+body{
+    background-image: url("https://www.travelandleisure.com/thmb/1jMJV8dIj8l94MPdTphorC_qV9w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-miami-beach-coast-miami-florida-BESTBEACH1023-149087fb668749019e11de4b1b338a50.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.container{
+    display: grid;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    display: flex;
+    font-size: xxx-large;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border-radius: 3vh;
+    opacity: 0.7;
+    width: 43vw;
+    height: 7vh;
+    margin: 2vh;
+    font-weight: 700;
+}
+
+button{
+    height: 6vh;
+    width: 23vw;
+    font-size: larger;
+    border-radius: 3vh;
+    position: relative;
+    left: 20%;
+    margin: 5vh;
+}
+
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 23px;
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
